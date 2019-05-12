@@ -198,7 +198,7 @@ def get_ipaddrs():
     if ip in ipaddrs:
         session.already_authorized = True
     else:
-        session.already_authorized = True
+        session.already_authorized = False
     return ipaddrs
 
 
